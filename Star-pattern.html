@@ -7,10 +7,23 @@
     <title>Star Pattern</title>
   </head>
   <body>
-    *****<br />
+    <!-- *****<br />
     ****<br />
     ***<br />
     **<br />
-    *
+    * -->
+    <!-- // Algo: 
+    step1: Apply for loop for a row: print upto  from 1=1  to i<=5 and inc. i
+    step2:Apply  for loop for coloum: upto from j=5 j>=i and dec. j and print * 
+    step3:Break the line after for loops.  -->
   </body>
+
+  <script>
+    for (var i = 1; i <= 5; i++) {
+      for (var j = 5; j >= i; j--) {
+        document.write("*");
+      }
+      document.write("<br>");
+    }
+  </script>
 </html>
